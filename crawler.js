@@ -1,6 +1,7 @@
 var http = require('http')
 var cheerio = require('cheerio')
-var url = 'http://www.imooc.com/learn/348'
+// var url = 'http://www.imooc.com/learn/348'
+var url = 'http://blog.csdn.net/zhangyuan19880606/article/details/51509257';
 
 function filter(html){
 	var $ = cheerio.load(html)
